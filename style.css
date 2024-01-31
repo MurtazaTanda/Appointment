@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+.firstcontainer {
+    background-color:white;
+    height: 550px;
+    width: 550px;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   /* box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.35); */
+
+}
+
+#btn1 {
+    border-radius: 18px;
+    padding: 6px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    bottom: 18px;
+    margin-left: 10px;
+    height: 35px;
+    border: 0.2px solid black;
+    background-color: white;
+}
+
+#btn1:hover {
+    background-color: lightgray;
+}
+
+#visit {
+    font-size: 30px;
+    margin-bottom: 19px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+     color:rgb(34, 22, 107)  ;
+}
+
+.lorem {
+    margin-left: 10px;
+}
+
+#btn2 {
+    width: 500px;
+    height: 100px;
+    background-color: #c7daec;
+    border: none;
+    border-radius: 4px ;
+   
+}
+
+#btn3 {
+    width: 500px;
+    height: 100px;
+    background-color: #c7daec;
+    border: none;
+}
+
+
+#phone {
+    font-size: 30px;
+    display: flex;
+    margin-left: 16px;
+    color: rgb(12, 12, 12);
+    position: relative;
+    top: 25px;
+}
+
+#call {
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif ;
+    opacity: 0.5;
+}
+
+#no {
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+    font-size: 15px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+#envelope {
+    font-size: 30px;
+    display: flex;
+    margin-left: 16px;
+    color: rgb(5, 5, 5);
+    position: relative;
+    top: 20px;
+}
+
+#mailus {
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.5;
+}
+
+#emailu {
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+    font-size: 15px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.secondcontainer  {
+    background-color: #c7daec;
+    height: 550px;
+    width: 550px;
+}
+
+input
+{
+    background-color: white;
+    height: 25px;
+    width: 220px;
+    color: black;
+    border: none;
+} 
+
+.subinput {
+    height: 25px;
+    width: 230px;
+    background-color: white; 
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: 5px 5px 5px 10px;
+    
+}
+
+
+.input {
+    padding:10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#describe {
+    height: 200px;
+    width: 500px;
+    margin-left: 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color: white;
+    padding-left: 10px;
+
+}
+
+button  {
+padding: 8px;
+width: 500px;
+margin-left: 13px;
+border-radius: 5px;
+border: none;
+background-color: rgb(93, 93, 221);
+}
+
+.choose {
+    border: none;
+    
+}
